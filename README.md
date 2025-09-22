@@ -86,6 +86,15 @@ plt.savefig('unit_price_hist.png')
 plt.show()
 ```
 ![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(1).png)
+## EDA Insights:
+
+**-Electronics and Home Appliances are top revenue contributors.**
+
+**-Sales spike on Fridays, aligning with consumer shopping patterns.**
+
+* January revenue > February revenue, showing seasonality effects.
+
+* Customer base includes a small set of high-value clients.
 
 **Dashboard Preview**
 ![Sales Transactions Performance](Sales%20Dashboard%20new.png)
