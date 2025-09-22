@@ -52,6 +52,7 @@ df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 df.head()  
 ```
 [!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(3).png)
+
 🔹 Exploratory Data Analysis (EDA)
 
 EDA was conducted to uncover early patterns before visualization in Power BI.
