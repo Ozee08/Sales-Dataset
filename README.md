@@ -49,6 +49,17 @@ df.fillna({"UnitPrice": df["UnitPrice"].mean()}, inplace=True)
 
 # Standardize column names  
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")  
+df.head()  
+```
+🔹 Exploratory Data Analysis (EDA)
 
-# Save cleaned dataset  
-df.to_csv("cleaned_sales.csv", index=False)  
+EDA was conducted to uncover early patterns before visualization in Power BI.
+```
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+
+category_revenue = df.groupby("product_category")["revenue"].sum()  
+sns.barplot(x=category_revenue.index, y=category_revenue.values)  
+plt.title("Revenue by Product Category")  
+plt.show()  
+```
