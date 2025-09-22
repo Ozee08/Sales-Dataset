@@ -51,7 +51,7 @@ df.fillna({"UnitPrice": df["UnitPrice"].mean()}, inplace=True)
 df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")  
 df.head()  
 ```
-[!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(3).png)
+![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(3).png)
 
 ## 🔹 Exploratory Data Analysis (EDA)
 
@@ -73,7 +73,7 @@ plt.tight_layout()
 plt.savefig('revenue_by_category.png')
 plt.show()
 ```
-[!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(2).png)
+![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(2).png)
 
 ```
 #  Histogram: unit price distribution
@@ -85,8 +85,7 @@ plt.tight_layout()
 plt.savefig('unit_price_hist.png')
 plt.show()
 ```
-[!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(1).png)
+![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(1).png)
 
-
-
-```
+**Dashboard Preview**
+![Sales Transactions Performance](Sales%20Dashboard%20new.png)
