@@ -53,15 +53,40 @@ df.head()
 ```
 [!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(3).png)
 
-🔹 Exploratory Data Analysis (EDA)
+## 🔹 Exploratory Data Analysis (EDA)
 
-EDA was conducted to uncover early patterns before visualization in Power BI.
+### EDA was conducted to uncover early patterns before visualization in Power BI.
+
 ```
-import matplotlib.pyplot as plt  
-import seaborn as sns  
+# Cell 14 - plots (matplotlib)
+plt.rcParams.update({'figure.max_open_warning': 0})
 
-category_revenue = df.groupby("product_category")["revenue"].sum()  
-sns.barplot(x=category_revenue.index, y=category_revenue.values)  
-plt.title("Revenue by Product Category")  
-plt.show()  
+#  Bar: revenue by category
+plt.figure(figsize=(10,5))
+cats = category_summary['Product_Category']
+vals = category_summary['total_revenue']
+plt.bar(cats, vals)
+plt.xticks(rotation=30, ha='right')
+plt.title('Total Revenue by Product Category')
+plt.ylabel('Total Revenue ($)')
+plt.tight_layout()
+plt.savefig('revenue_by_category.png')
+plt.show()
+```
+[!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(2).png)
+
+```
+#  Histogram: unit price distribution
+plt.figure(figsize=(7,4))
+plt.hist(df['Unit_Price'].dropna(), bins=30)
+plt.title('Unit Price Distribution')
+plt.xlabel('Unit Price ($)')
+plt.tight_layout()
+plt.savefig('unit_price_hist.png')
+plt.show()
+```
+[!Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(1).png)
+
+
+
 ```
