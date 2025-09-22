@@ -118,4 +118,72 @@ plt.show()
 - Weekly Trend: Fridays are the strongest sales day.
 
 - Monthly Trend: Revenue dipped from Jan ($32.2K) → Feb ($28.5K).
-  
+
+![Sales Transactions Performance](images/Sales%20Dashboard.png)
+
+# 🔹 Drillthrough Dashboard – Home Appliances
+
+## Key Metrics:
+
+- Total Customers: 168
+
+- Total Sales: $35K
+
+- Net Quantity: 669
+
+- Average Unit Price: $99
+
+##Business Insights:
+
+- Weekly Trend: Fridays and Mondays generate >$4K each.
+
+- Revenue Concentration: 77% reliance on one group → risk of over-dependence.
+
+- Seasonality: Sales rose in February → growth potential despite overall slowdown.
+
+- Customer Drillthrough: Identifies high-value clients for targeted campaigns.
+
+  ![Sales Transactions Performance](images/Sales%20Dashboard%20Drillthrough.png)
+
+ #  ⚙️ Tools & Technologies
+
+- Python (pandas, numpy, matplotlib, seaborn): Data cleaning & exploratory analysis
+
+- Power BI Desktop: Data modeling, DAX measures, drillthrough dashboards
+
+- Excel / CSV: Input dataset
+
+# 🎯 Business Objectives Achieved
+
+- ✔️ Build a clean ETL pipeline with Python
+- ✔️ Perform EDA to guide visualization design
+- ✔️ Develop interactive dashboards with drillthrough
+- ✔️ Provide business insights for sales optimization
+
+ # 🚀 Future Improvements
+
+- Automate dataset refresh using Python + Power BI Service
+
+- Expand drillthrough for Electronics & Furniture
+
+- Integrate forecasting models (ARIMA, Prophet) for revenue prediction
+
+- Develop a customer churn prediction model and visualize results in Power BI
+
+#  📈 Business Value
+
+- Saves time through automated cleaning + reporting
+
+- Provides data-driven insights for executives
+
+- Identifies high-value customers and revenue concentration risks
+
+- Demonstrates end-to-end analytics workflow (Python → Power BI)
+
+
+📬 Contact
+
+👤 Duru Chukwuma
+📧 chukwuduru588@yahoo.com
+
+🔗 ![LinkedIn](www.
