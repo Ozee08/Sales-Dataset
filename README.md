@@ -88,13 +88,34 @@ plt.show()
 ![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(1).png)
 ## EDA Insights:
 
-**-Electronics and Home Appliances are top revenue contributors.**
+- Electronics and Home Appliances are top revenue contributors.
 
-**-Sales spike on Fridays, aligning with consumer shopping patterns.**
+- Sales spike on Fridays, aligning with consumer shopping patterns.
 
-* January revenue > February revenue, showing seasonality effects.
+- January revenue > February revenue, showing seasonality effects.
 
-* Customer base includes a small set of high-value clients.
+- Customer base includes a small set of high-value clients.
 
-**Dashboard Preview**
+# 🖼️ Dashboard Previews & Interpretations
 ![Sales Transactions Performance](Sales%20Dashboard%20new.png)
+
+## Key Metrics:
+
+- Total Customers: 475
+
+- Total Sales: $110K
+
+- Net Quantity: 1,936
+
+- Average Unit Price: $97
+
+## Business Insights:
+
+- Products: Electronics (21.9%) and Home Appliances (20.8%) drive revenue.
+
+- Revenue Concentration: 76% from loyal/repeat customers → retention is key.
+
+- Weekly Trend: Fridays are the strongest sales day.
+
+- Monthly Trend: Revenue dipped from Jan ($32.2K) → Feb ($28.5K).
+  
