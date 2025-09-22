@@ -183,7 +183,9 @@ plt.show()
 
 📬 Contact
 
-👤 Duru Chukwuma
-📧 chukwuduru588@yahoo.com
+👤 **Duru Chukwuma**
+📧 chukwuduru588@gmail.com
 
-🔗 ![LinkedIn](www.
+🔗 [LinkedIn](https://linkedin.com/in/chukwuma-duru)  
+🔗 [Portfolio](https://www.datascienceportfol.io/chukwuduru588)
+
