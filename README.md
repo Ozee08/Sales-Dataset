@@ -1,11 +1,5 @@
 # 📊 Sales Transactions Dashboard  
-[![Power BI](https://img.shields.io/badge/Tool-PowerBI-F2C811?logo=power-bi&logoColor=white)](https://powerbi.microsoft.com/) 
-[![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)]()
-[![EDA](https://img.shields.io/badge/Process-Exploratory%20Data%20Analysis-orange)]()
-[![Data Analytics](https://img.shields.io/badge/Focus-Business%20Intelligence-blue)]()
-[![Portfolio](https://img.shields.io/badge/Type-Data%20Analytics%20Portfolio-green)]()
 
----
 
 ## 📌 Project Overview  
 This project demonstrates a **complete data analytics pipeline** that combines:  
@@ -184,6 +178,7 @@ plt.show()
 📬 Contact
 
 👤 **Duru Chukwuma**
+
 📧 chukwuduru588@gmail.com
 
 🔗 [LinkedIn](https://linkedin.com/in/chukwuma-duru)  
