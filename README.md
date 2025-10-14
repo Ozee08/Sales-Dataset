@@ -1,7 +1,7 @@
 # 📊 Sales Transactions Dashboard  
 
 
-## 📌 Project Overview  
+##  Project Overview  
 This project demonstrates a **complete data analytics pipeline** that combines:  
 
 1. **Python (pandas, numpy, matplotlib, seaborn):**  
@@ -20,9 +20,9 @@ The solution consists of:
 
 ---
 
-## 🐍 Python – Data Cleaning & EDA  
+##  Python – Data Cleaning & EDA  
 
-### 🔹 Data Cleaning  
+###  Data Cleaning  
 Steps taken before importing into Power BI:  
 - Removed duplicates  
 - Handled missing values (imputation using mean for unit prices)  
@@ -47,7 +47,7 @@ df.head()
 ```
 ![Sales Dashboard](Sales%20python%20images/Sales%20dataset%20image(3).png)
 
-## 🔹 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### EDA was conducted to uncover early patterns before visualization in Power BI.
 
@@ -90,7 +90,7 @@ plt.show()
 
 - Customer base includes a small set of high-value clients.
 
-# 🖼️ Dashboard Previews & Interpretations
+#  Dashboard Previews & Interpretations
 ![Sales Transactions Performance](Sales%20Dashboard%20new.png)
 
 ## Key Metrics:
@@ -115,7 +115,7 @@ plt.show()
 
 ![Sales Transactions Performance](images/Sales%20Dashboard.png)
 
-# 🔹 Drillthrough Dashboard – Home Appliances
+#  Drillthrough Dashboard – Home Appliances
 
 ## Key Metrics:
 
@@ -139,7 +139,7 @@ plt.show()
 
   ![Sales Transactions Performance](images/Sales%20Dashboard%20Drillthrough.png)
 
- #  ⚙️ Tools & Technologies
+ #   Tools & Technologies
 
 - Python (pandas, numpy, matplotlib, seaborn): Data cleaning & exploratory analysis
 
@@ -147,14 +147,14 @@ plt.show()
 
 - Excel / CSV: Input dataset
 
-# 🎯 Business Objectives Achieved
+#  Business Objectives Achieved
 
-- ✔️ Build a clean ETL pipeline with Python
-- ✔️ Perform EDA to guide visualization design
-- ✔️ Develop interactive dashboards with drillthrough
-- ✔️ Provide business insights for sales optimization
+-  Build a clean ETL pipeline with Python
+-  Perform EDA to guide visualization design
+-  Develop interactive dashboards with drillthrough
+-  Provide business insights for sales optimization
 
- # 🚀 Future Improvements
+ #  Future Improvements
 
 - Automate dataset refresh using Python + Power BI Service
 
@@ -164,7 +164,7 @@ plt.show()
 
 - Develop a customer churn prediction model and visualize results in Power BI
 
-#  📈 Business Value
+#   Business Value
 
 - Saves time through automated cleaning + reporting
 
@@ -175,11 +175,11 @@ plt.show()
 - Demonstrates end-to-end analytics workflow (Python → Power BI)
 
 
-📬 Contact
+ # Author
 
-👤 **Duru Chukwuma**
+ **Duru Chukwuma**
 
-📧 chukwuduru588@gmail.com
+ chukwuduru588@gmail.com
 
 🔗 [LinkedIn](https://linkedin.com/in/chukwuma-duru)  
 🔗 [Portfolio](https://www.datascienceportfol.io/chukwuduru588)
